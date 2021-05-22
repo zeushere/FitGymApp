@@ -1,0 +1,35 @@
+{
+  "name": "fitgymapp",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mailgun-js": "^0.22.0",
+    "mongoose": "^5.12.3",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.7",
+    "serve": "^11.3.2"
+  },
+  "devDependencies": {},
+  "homepage": ".",
+  "engines": {
+    "node": "12.4.0",
+    "npm": "6.9.0"
+  },
+  "scripts": {
+    "build": "cd frontend && npm run build",
+    "install-app": "cd frontend && npm install",
+    "heroku-postbuild": "npm run install-app && npm run build",
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,22 @@
+GET http://localhost:5000/api/products
+
+###
+GET http://localhost:5000/api/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MDY2YzU2NjA5YjBmNTM0NDQ5ZTRmODYiLCJuYW1lIjoiQWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsImlzQWRtaW4iOnRydWUsImlhdCI6MTYyMDkzMjQ0NywiZXhwIjoxNjIzNTI0NDQ3fQ.j-3nWWTOQP-4UHq-Kh-ii1uPlec3i5rncuuhLB197e4
+
+###
+GET http://localhost:5000/api/orders
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MDY2YzU2NjA5YjBmNTM0NDQ5ZTRmODYiLCJuYW1lIjoiQWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsImlzQWRtaW4iOnRydWUsImlhdCI6MTYyMDkzMjQ0NywiZXhwIjoxNjIzNTI0NDQ3fQ.j-3nWWTOQP-4UHq-Kh-ii1uPlec3i5rncuuhLB197e4
+
+###
+POST http://localhost:5000/api/users/signin
+content-type: application/json
+
+{
+    "email": "admin@gmail.com",
+    "password": "123"
+}
+
+###
+POST http://localhost:5000/api/products/6066cc5965bb35318c427730/reviews
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MDY2YzU2NjA5YjBmNTM0NDQ5ZTRmODYiLCJuYW1lIjoiQWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsImlzQWRtaW4iOnRydWUsImlhdCI6MTYyMDkzMjQ0NywiZXhwIjoxNjIzNTI0NDQ3fQ.j-3nWWTOQP-4UHq-Kh-ii1uPlec3i5rncuuhLB197e4
