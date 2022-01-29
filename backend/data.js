@@ -17,7 +17,7 @@ const data = {
     ],
     products: [
         {
-            name: 'Diet 1500kcal',
+            name: 'Diet 2500kcal',
             category: 'Diet',
             image: '/images/p1.jpg',
             price: 120,
@@ -39,7 +39,7 @@ const data = {
         {
             name: 'Diet 3000kcal',
             category: 'Diet',
-            image: '/images/p2.jpg',
+            image: '/images/p3.jpg',
             price: 100,
             countInStock: 20,
             rating: 4.0,
@@ -49,7 +49,7 @@ const data = {
         {
             name: 'Diet 4000kcal',
             category: 'Diet',
-            image: '/images/p2.jpg',
+            image: '/images/p4.jpg',
             price: 100,
             countInStock: 20,
             rating: 4.0,
@@ -59,7 +59,7 @@ const data = {
         {
             name: 'Diet 4500kcal',
             category: 'Diet',
-            image: '/images/p2.jpg',
+            image: '/images/p5.jpg',
             price: 100,
             countInStock: 20,
             rating: 4.0,
@@ -69,7 +69,7 @@ const data = {
         {
             name: 'Diet 5000kcal',
             category: 'Diet',
-            image: '/images/p2.jpg',
+            image: '/images/p6.jpg',
             price: 100,
             countInStock: 20,
             rating: 4.0,

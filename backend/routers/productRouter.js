@@ -3,6 +3,7 @@ import expressAsyncHandler from 'express-async-handler';
 import Product from '../models/productModel.js';
 import { isAdmin, isAuth } from '../utils.js';
 import path from 'path';
+import data from "../data";
 import cors from 'cors';
 
 const productRouter = express.Router();
