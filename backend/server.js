@@ -14,6 +14,10 @@ dotenv.config();
 const app = express();
 app.use(cors());
 
+app.get('/',((req, res) => {
+    res.send('Hello to Memories API');
+}));
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 

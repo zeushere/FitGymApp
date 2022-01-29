@@ -38,7 +38,7 @@ export default function PlaceOrderScreen(props) {
       <div className="container">
       <hr className="mt-5 mb-5" style={{ border: "0px", borderTop: "5px solid blue" }}></hr>
       <div class="border border-info rounded row g-0 overflow-hidden shadow-sm  position-relative">
-      <div class="p-4 d-flex flex-column">
+      <div class="p-4">
       <div className = "row">
       <div className = "col-12">
       <h1 className = "card-title">Order Summary</h1>
