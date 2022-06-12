@@ -15,6 +15,7 @@ export default function UserListScreen(props) {
         success: successDelete,
     } = userDelete;
 
+
     const dispatch = useDispatch();
     useEffect(() => {
         dispatch(listUsers());
